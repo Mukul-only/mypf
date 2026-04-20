@@ -19,7 +19,7 @@ export default defineConfig({
         manualChunks: {
           'vendor-three': ['three', 'three-stdlib'],
           'vendor-react': ['react', 'react-dom'],
-          'vendor-gsap': ['gsap', 'gsap-trial'],
+          'vendor-gsap': ['gsap'],
           'vendor-r3f': ['@react-three/fiber', '@react-three/drei'],
           'vendor-physics': ['@react-three/rapier', '@react-three/postprocessing'],
         },
